@@ -169,3 +169,96 @@ main {
 .hidden {
   display: none;
 }
+
+/* ADAPTIVE DESIGN */
+@media (max-width: 760px) {
+  .name {
+    font-size: 2.3rem;
+  }
+
+  .player {
+    padding: 5rem;
+  }
+
+  .btn {
+    font-size: 1.3rem;
+  }
+
+  .btn--roll {
+    top: 43rem;
+  }
+
+  .btn--hold {
+    top: 50.1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .player {
+    padding: 5rem;
+  }
+
+  .btn {
+    padding: 0.3rem 0.5rem;
+  }
+
+  .btn--roll {
+    top: 45.7rem;
+  }
+
+  .btn--hold {
+    top: 50.8rem;
+  }
+
+  .current-label {
+    font-size: 1.15rem;
+  }
+
+  .current {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: 1.3rem;
+  }
+  
+  .player {
+    padding: 4rem;
+  }
+  
+  .btn {
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .btn--new {
+    top: 30rem;
+  }
+
+  .btn--roll {
+    top: 36rem;
+  }
+  
+  .btn--hold {
+    top: 42rem;
+  }
+  
+  .current-label {
+    font-size: 1.15rem;
+  }
+  
+  .current {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .score {
+    font-size: 7rem;
+  }
+}
